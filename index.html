@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freecodecamp Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1 id="title">freecodecamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+            <form id="survey-form">
+                <fieldset>
+                    <label id="name-label" for="name">Name <input type="text" class="inline" id="name" name="name" placeholder="Enter Your Name" required></label>
+                    <label id="email-label" for="email">Email <input type="email" class="inline" id="email" name="email" placeholder="Enter Your Email" required></label>
+                      <label id="number-label" for="age">Age <input type="number" class="inline" id="number" name="number" min="18" max="55" required placeholder="Enter Your Age"></label>
+            
+                <label>Wich option best describes your current role
+                    <select id="dropdown" class="inline">
+                        <option>select current role</option>
+                        <option>Student</option>
+                        <option>Full time job</option>
+                        <option>Full time learner</option>
+                        <option>prefer not say</option>
+                        <option>prefer not say</option>
+                        <option>Other</option>
+                    </select>
+                </label>
+
+                </fieldset>
+
+               <fieldset>
+                <legend>whould you recommend freecodecamp to a freind ?</legend>
+                <label><input type="radio" value="radio" name="1">Definitely</label>
+                <label><input type="radio" value="radio" name="1">Maybe</label>
+                <label><input type="radio" value="radio" name="1">Not sure</label>
+                <select  class="inline">
+                    <option >Select an Option</option>
+                    <option>Challenges</option>
+                    <option>Projects</option>
+                    <option>Community</option>
+                    <option>Open source </option>
+                
+                </select>
+ 
+               </fieldset>
+               <fieldset>
+                <legend>what would you like to see improved?(check that apply)</legend>
+                <label><input type="checkbox" value="checkbox">Front-end Projects</label>
+                <label><input type="checkbox" value="checkbox">Back-end Projects</label>
+                <label><input type="checkbox" value="checkbox">Data Visualization</label>
+                <label><input type="checkbox" value="checkbox">Challenges</label>
+                <label><input type="checkbox" value="checkbox">Open Source Community</label>
+                <label><input type="checkbox" value="checkbox">Gitter help rooms</label>
+                <label><input type="checkbox" value="checkbox">Videos</label>
+                <label><input type="checkbox" value="checkbox">City Meetups</label>
+                <label><input type="checkbox" value="checkbox">Wiki</label>
+                <label><input type="checkbox" value="checkbox">Forum</label>
+                <label><input type="checkbox" value="checkbox">Additional Courses</label>
+          
+
+               </fieldset>
+               <fieldset>
+                <legend>Any comment or suggestions ?</legend>
+                <textarea></textarea>
+                <label><input type="submit" id="submit" value="submit"></label>
+         
+
+
+               </fieldset>
+             <form>
+
+
+        
+
+</body>
+</html>
